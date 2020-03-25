@@ -18,7 +18,7 @@ app.set("view engine", "ejs");
 //Sessions
 app.use(
   session({
-    secret: "#onil&oguh#",
+    secret: "#odnil&otga#",
     cookie: {
       maxAge: 3600000
     }
@@ -118,7 +118,7 @@ app.get("/admin/articles/new", (req, res) => {
 });
 */
 
-app.listen(80, () => {
+app.listen(3000, () => {
   console.log("Servidor esta Rodando!");
 });
 //npm install --save bcryptjs
